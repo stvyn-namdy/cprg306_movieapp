@@ -4,12 +4,12 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">MovieDB</h3>
+              <h3 className="text-xl font-bold mb-4">Internet Movies Rental Company</h3>
               <p>Your ultimate destination for movie information and management.</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-              <p>Email: info@moviedb.com</p>
+              <p>Email: info@internetmoviesrental.com</p>
               <p>Phone: (123) 456-7890</p>
               <p>Address: 123 Movie Street, Hollywood, CA 90001</p>
             </div>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-            <p>&copy; {new Date().getFullYear()} MovieDB. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} IMR. All rights reserved.</p>
           </div>
         </div>
       </footer>

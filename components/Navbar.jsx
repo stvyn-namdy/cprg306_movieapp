@@ -4,7 +4,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 py-4">
                 <div className="flex justify-between items-center">
                     <div className="font-bold text-xl">
-                        MoviesDB
+                    Internet Movies Rental Company
                     </div>
                     <div>
                         <ul className="flex space-x-6">

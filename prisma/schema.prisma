@@ -19,8 +19,8 @@ model Movie {
   releaseYear Int
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
-  actorsIds   String[] @db.ObjectId
-  actors Actor[] @relation(fields: [actorsIds], references: [id])
+  actorIds   String[] @db.ObjectId
+  actors      Actor[] @relation(fields: [actorIds], references: [id])
 }
 
 model Actor {

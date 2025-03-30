@@ -12,11 +12,11 @@
     "@prisma/client": "^6.5.0",
     "autoprefixer": "^10.4.21",
     "mongodb": "^6.15.0",
-    "next": "15.2.3",
+    "next": "^15.2.4",
     "next-auth": "^4.24.11",
     "prisma": "^6.5.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
